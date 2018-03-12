@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4183B5E6F2A4F976B7706521 /* Pods_EcieptTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE2FCC5AB7F41449926D77E /* Pods_EcieptTests.framework */; };
+		6F87B05F7FB719818A4BF5D0 /* Pods_Eciept.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFBC7AF00563DE45110A4C1 /* Pods_Eciept.framework */; };
+		8790A5DE204BDE3700F3226C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790A5DD204BDE3700F3226C /* AppDelegate.swift */; };
+		8790A5E3204BDE3700F3226C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8790A5E1204BDE3700F3226C /* Main.storyboard */; };
+		8790A5E5204BDE3B00F3226C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8790A5E4204BDE3B00F3226C /* Assets.xcassets */; };
+		8790A5E8204BDE3B00F3226C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8790A5E6204BDE3B00F3226C /* LaunchScreen.storyboard */; };
+		8790A5F3204BDE3B00F3226C /* EcieptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790A5F2204BDE3B00F3226C /* EcieptTests.swift */; };
+		8790A5FE204BDE3B00F3226C /* EcieptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790A5FD204BDE3B00F3226C /* EcieptUITests.swift */; };
+		8790A60C204D1B9D00F3226C /* ReplaceTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790A60B204D1B9D00F3226C /* ReplaceTransition.swift */; };
+		8790A60E204D20B400F3226C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790A60D204D20B400F3226C /* CreateAccountViewController.swift */; };
+		8790A610204D21B700F3226C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790A60F204D21B700F3226C /* LogInViewController.swift */; };
+		8790A612204D527500F3226C /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790A611204D527500F3226C /* StartupViewController.swift */; };
+		B1F943889097BAC6AF646636 /* Pods_EcieptUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C35C2ED5DE5A2F481A0E68 /* Pods_EcieptUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8790A5EF204BDE3B00F3226C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8790A5D2204BDE3700F3226C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8790A5D9204BDE3700F3226C;
+			remoteInfo = Eciept;
+		};
+		8790A5FA204BDE3B00F3226C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8790A5D2204BDE3700F3226C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8790A5D9204BDE3700F3226C;
+			remoteInfo = Eciept;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1384EBF97F313B6ECEDD2B25 /* Pods-Eciept.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eciept.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eciept/Pods-Eciept.debug.xcconfig"; sourceTree = "<group>"; };
+		18BCC73D512C046CE4FE8E14 /* Pods-EcieptUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcieptUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcieptUITests/Pods-EcieptUITests.release.xcconfig"; sourceTree = "<group>"; };
+		239CD3A3633E1CE850CA7B86 /* Pods-EcieptUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcieptUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcieptUITests/Pods-EcieptUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DE2FCC5AB7F41449926D77E /* Pods_EcieptTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcieptTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3CCA09C0FF63593DF8CF89 /* Pods-EcieptTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcieptTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcieptTests/Pods-EcieptTests.release.xcconfig"; sourceTree = "<group>"; };
+		8790A5DA204BDE3700F3226C /* Eciept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eciept.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8790A5DD204BDE3700F3226C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8790A5E2204BDE3700F3226C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8790A5E4204BDE3B00F3226C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8790A5E7204BDE3B00F3226C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8790A5E9204BDE3B00F3226C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8790A5EE204BDE3B00F3226C /* EcieptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcieptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8790A5F2204BDE3B00F3226C /* EcieptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcieptTests.swift; sourceTree = "<group>"; };
+		8790A5F4204BDE3B00F3226C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8790A5F9204BDE3B00F3226C /* EcieptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcieptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8790A5FD204BDE3B00F3226C /* EcieptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcieptUITests.swift; sourceTree = "<group>"; };
+		8790A5FF204BDE3B00F3226C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8790A60B204D1B9D00F3226C /* ReplaceTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceTransition.swift; sourceTree = "<group>"; };
+		8790A60D204D20B400F3226C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		8790A60F204D21B700F3226C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		8790A611204D527500F3226C /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		A4F4B08683186AA0B2FF1744 /* Pods-Eciept.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eciept.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eciept/Pods-Eciept.release.xcconfig"; sourceTree = "<group>"; };
+		A5C35C2ED5DE5A2F481A0E68 /* Pods_EcieptUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcieptUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFBC7AF00563DE45110A4C1 /* Pods_Eciept.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eciept.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D335B53BA08E1D98B3AEB6C3 /* Pods-EcieptTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcieptTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcieptTests/Pods-EcieptTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8790A5D7204BDE3700F3226C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F87B05F7FB719818A4BF5D0 /* Pods_Eciept.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8790A5EB204BDE3B00F3226C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4183B5E6F2A4F976B7706521 /* Pods_EcieptTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8790A5F6204BDE3B00F3226C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F943889097BAC6AF646636 /* Pods_EcieptUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66956E3EE895BE953599DE3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1384EBF97F313B6ECEDD2B25 /* Pods-Eciept.debug.xcconfig */,
+				A4F4B08683186AA0B2FF1744 /* Pods-Eciept.release.xcconfig */,
+				D335B53BA08E1D98B3AEB6C3 /* Pods-EcieptTests.debug.xcconfig */,
+				7B3CCA09C0FF63593DF8CF89 /* Pods-EcieptTests.release.xcconfig */,
+				239CD3A3633E1CE850CA7B86 /* Pods-EcieptUITests.debug.xcconfig */,
+				18BCC73D512C046CE4FE8E14 /* Pods-EcieptUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8790A5D1204BDE3700F3226C = {
+			isa = PBXGroup;
+			children = (
+				8790A5DC204BDE3700F3226C /* Eciept */,
+				8790A5F1204BDE3B00F3226C /* EcieptTests */,
+				8790A5FC204BDE3B00F3226C /* EcieptUITests */,
+				8790A5DB204BDE3700F3226C /* Products */,
+				66956E3EE895BE953599DE3D /* Pods */,
+				B4263F2D7ED6B51EDFAFA74A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8790A5DB204BDE3700F3226C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8790A5DA204BDE3700F3226C /* Eciept.app */,
+				8790A5EE204BDE3B00F3226C /* EcieptTests.xctest */,
+				8790A5F9204BDE3B00F3226C /* EcieptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8790A5DC204BDE3700F3226C /* Eciept */ = {
+			isa = PBXGroup;
+			children = (
+				8790A611204D527500F3226C /* StartupViewController.swift */,
+				8790A5DD204BDE3700F3226C /* AppDelegate.swift */,
+				8790A60D204D20B400F3226C /* CreateAccountViewController.swift */,
+				8790A60F204D21B700F3226C /* LogInViewController.swift */,
+				8790A5E1204BDE3700F3226C /* Main.storyboard */,
+				8790A60B204D1B9D00F3226C /* ReplaceTransition.swift */,
+				8790A5E4204BDE3B00F3226C /* Assets.xcassets */,
+				8790A5E6204BDE3B00F3226C /* LaunchScreen.storyboard */,
+				8790A5E9204BDE3B00F3226C /* Info.plist */,
+			);
+			path = Eciept;
+			sourceTree = "<group>";
+		};
+		8790A5F1204BDE3B00F3226C /* EcieptTests */ = {
+			isa = PBXGroup;
+			children = (
+				8790A5F2204BDE3B00F3226C /* EcieptTests.swift */,
+				8790A5F4204BDE3B00F3226C /* Info.plist */,
+			);
+			path = EcieptTests;
+			sourceTree = "<group>";
+		};
+		8790A5FC204BDE3B00F3226C /* EcieptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8790A5FD204BDE3B00F3226C /* EcieptUITests.swift */,
+				8790A5FF204BDE3B00F3226C /* Info.plist */,
+			);
+			path = EcieptUITests;
+			sourceTree = "<group>";
+		};
+		B4263F2D7ED6B51EDFAFA74A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEFBC7AF00563DE45110A4C1 /* Pods_Eciept.framework */,
+				3DE2FCC5AB7F41449926D77E /* Pods_EcieptTests.framework */,
+				A5C35C2ED5DE5A2F481A0E68 /* Pods_EcieptUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8790A5D9204BDE3700F3226C /* Eciept */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8790A602204BDE3B00F3226C /* Build configuration list for PBXNativeTarget "Eciept" */;
+			buildPhases = (
+				B89AFA8F6A37904EC4C4F5DF /* [CP] Check Pods Manifest.lock */,
+				8790A5D6204BDE3700F3226C /* Sources */,
+				8790A5D7204BDE3700F3226C /* Frameworks */,
+				8790A5D8204BDE3700F3226C /* Resources */,
+				4BF953C59A5E853BB5E15D7E /* [CP] Embed Pods Frameworks */,
+				B440FA8AAC6538284526260B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eciept;
+			productName = Eciept;
+			productReference = 8790A5DA204BDE3700F3226C /* Eciept.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8790A5ED204BDE3B00F3226C /* EcieptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8790A605204BDE3B00F3226C /* Build configuration list for PBXNativeTarget "EcieptTests" */;
+			buildPhases = (
+				8E56942442EB86C52D7DA154 /* [CP] Check Pods Manifest.lock */,
+				8790A5EA204BDE3B00F3226C /* Sources */,
+				8790A5EB204BDE3B00F3226C /* Frameworks */,
+				8790A5EC204BDE3B00F3226C /* Resources */,
+				9884DB0B625CE9EB96F635FA /* [CP] Embed Pods Frameworks */,
+				596547138096D4CAE02E75E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8790A5F0204BDE3B00F3226C /* PBXTargetDependency */,
+			);
+			name = EcieptTests;
+			productName = EcieptTests;
+			productReference = 8790A5EE204BDE3B00F3226C /* EcieptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8790A5F8204BDE3B00F3226C /* EcieptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8790A608204BDE3B00F3226C /* Build configuration list for PBXNativeTarget "EcieptUITests" */;
+			buildPhases = (
+				C7BD1F5857FCBA8CB09A25A8 /* [CP] Check Pods Manifest.lock */,
+				8790A5F5204BDE3B00F3226C /* Sources */,
+				8790A5F6204BDE3B00F3226C /* Frameworks */,
+				8790A5F7204BDE3B00F3226C /* Resources */,
+				83CC731CD4DAB2194A62DD67 /* [CP] Embed Pods Frameworks */,
+				161D3362DDA8C432EF1C0AF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8790A5FB204BDE3B00F3226C /* PBXTargetDependency */,
+			);
+			name = EcieptUITests;
+			productName = EcieptUITests;
+			productReference = 8790A5F9204BDE3B00F3226C /* EcieptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8790A5D2204BDE3700F3226C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ari Kanevsky";
+				TargetAttributes = {
+					8790A5D9204BDE3700F3226C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					8790A5ED204BDE3B00F3226C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8790A5D9204BDE3700F3226C;
+					};
+					8790A5F8204BDE3B00F3226C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8790A5D9204BDE3700F3226C;
+					};
+				};
+			};
+			buildConfigurationList = 8790A5D5204BDE3700F3226C /* Build configuration list for PBXProject "Eciept" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8790A5D1204BDE3700F3226C;
+			productRefGroup = 8790A5DB204BDE3700F3226C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8790A5D9204BDE3700F3226C /* Eciept */,
+				8790A5ED204BDE3B00F3226C /* EcieptTests */,
+				8790A5F8204BDE3B00F3226C /* EcieptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8790A5D8204BDE3700F3226C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8790A5E8204BDE3B00F3226C /* LaunchScreen.storyboard in Resources */,
+				8790A5E5204BDE3B00F3226C /* Assets.xcassets in Resources */,
+				8790A5E3204BDE3700F3226C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8790A5EC204BDE3B00F3226C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8790A5F7204BDE3B00F3226C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		161D3362DDA8C432EF1C0AF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcieptUITests/Pods-EcieptUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BF953C59A5E853BB5E15D7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eciept/Pods-Eciept-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eciept/Pods-Eciept-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		596547138096D4CAE02E75E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcieptTests/Pods-EcieptTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83CC731CD4DAB2194A62DD67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcieptUITests/Pods-EcieptUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E56942442EB86C52D7DA154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcieptTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9884DB0B625CE9EB96F635FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcieptTests/Pods-EcieptTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B440FA8AAC6538284526260B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eciept/Pods-Eciept-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89AFA8F6A37904EC4C4F5DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eciept-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BD1F5857FCBA8CB09A25A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcieptUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8790A5D6204BDE3700F3226C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8790A60E204D20B400F3226C /* CreateAccountViewController.swift in Sources */,
+				8790A60C204D1B9D00F3226C /* ReplaceTransition.swift in Sources */,
+				8790A610204D21B700F3226C /* LogInViewController.swift in Sources */,
+				8790A612204D527500F3226C /* StartupViewController.swift in Sources */,
+				8790A5DE204BDE3700F3226C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8790A5EA204BDE3B00F3226C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8790A5F3204BDE3B00F3226C /* EcieptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8790A5F5204BDE3B00F3226C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8790A5FE204BDE3B00F3226C /* EcieptUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8790A5F0204BDE3B00F3226C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8790A5D9204BDE3700F3226C /* Eciept */;
+			targetProxy = 8790A5EF204BDE3B00F3226C /* PBXContainerItemProxy */;
+		};
+		8790A5FB204BDE3B00F3226C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8790A5D9204BDE3700F3226C /* Eciept */;
+			targetProxy = 8790A5FA204BDE3B00F3226C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8790A5E1204BDE3700F3226C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8790A5E2204BDE3700F3226C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8790A5E6204BDE3B00F3226C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8790A5E7204BDE3B00F3226C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8790A600204BDE3B00F3226C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8790A601204BDE3B00F3226C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8790A603204BDE3B00F3226C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1384EBF97F313B6ECEDD2B25 /* Pods-Eciept.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG5P9U7ZNQ;
+				INFOPLIST_FILE = Eciept/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eciept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8790A604204BDE3B00F3226C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F4B08683186AA0B2FF1744 /* Pods-Eciept.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG5P9U7ZNQ;
+				INFOPLIST_FILE = Eciept/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eciept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8790A606204BDE3B00F3226C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D335B53BA08E1D98B3AEB6C3 /* Pods-EcieptTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG5P9U7ZNQ;
+				INFOPLIST_FILE = EcieptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arikanev.EcieptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eciept.app/Eciept";
+			};
+			name = Debug;
+		};
+		8790A607204BDE3B00F3226C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3CCA09C0FF63593DF8CF89 /* Pods-EcieptTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG5P9U7ZNQ;
+				INFOPLIST_FILE = EcieptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arikanev.EcieptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eciept.app/Eciept";
+			};
+			name = Release;
+		};
+		8790A609204BDE3B00F3226C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239CD3A3633E1CE850CA7B86 /* Pods-EcieptUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG5P9U7ZNQ;
+				INFOPLIST_FILE = EcieptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arikanev.EcieptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eciept;
+			};
+			name = Debug;
+		};
+		8790A60A204BDE3B00F3226C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BCC73D512C046CE4FE8E14 /* Pods-EcieptUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JG5P9U7ZNQ;
+				INFOPLIST_FILE = EcieptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arikanev.EcieptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eciept;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8790A5D5204BDE3700F3226C /* Build configuration list for PBXProject "Eciept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8790A600204BDE3B00F3226C /* Debug */,
+				8790A601204BDE3B00F3226C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8790A602204BDE3B00F3226C /* Build configuration list for PBXNativeTarget "Eciept" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8790A603204BDE3B00F3226C /* Debug */,
+				8790A604204BDE3B00F3226C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8790A605204BDE3B00F3226C /* Build configuration list for PBXNativeTarget "EcieptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8790A606204BDE3B00F3226C /* Debug */,
+				8790A607204BDE3B00F3226C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8790A608204BDE3B00F3226C /* Build configuration list for PBXNativeTarget "EcieptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8790A609204BDE3B00F3226C /* Debug */,
+				8790A60A204BDE3B00F3226C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8790A5D2204BDE3700F3226C /* Project object */;
+}
