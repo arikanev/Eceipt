@@ -1,7 +1,7 @@
 <?php
 
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'Benji1997');
+define('DB_PASSWORD', 'REDACTED you snooper ;)');
 define('DB_HOST', '127.0.0.1');
 define('DB_NAME', 'Eceipt');
 
